@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Amici_Core::core" title="Amici Infotech" module="Amici_Core" sortOrder="10" resource="Amici_Core::core" />
+        <add id="Amici_Core::core_configuration" title="Configuration" module="Amici_Core" sortOrder="100" parent="Amici_Core::core" resource="Amici_Core::core" />
+    </menu>
+</config>

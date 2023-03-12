@@ -1,0 +1,38 @@
+{
+    "name": "amici/magento-core",
+    "display_name": "Magento 2 Core",
+    "description": "This is Amici Infotech core structure module for magento2.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "keywords": ["amici", "amici infotech", "Magento2", "core"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Amici Infotech",
+            "homepage": "https://amiciinfotech.com"
+        }
+    ],
+    "support": {
+        "email": "contact@amiciinfotech.com"
+    },
+    "require": {
+        "php": "~5.*|~7.*|~8.*",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Amici\\Core\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Amici\/Core"
+            ]
+        ],
+        "developer": "Amici Infotech",
+        "developerUrl": "https://amiciinfotech.com"
+    }
+}
