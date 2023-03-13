@@ -16,7 +16,7 @@
         "email": "contact@amiciinfotech.com"
     },
     "require": {
-        "php": "~5.*|~7.*|~8.*",
+        "php": ">=7.0.0",
         "magento/framework": "*"
     },
     "autoload": {
